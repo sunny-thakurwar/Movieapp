@@ -42,6 +42,7 @@ const App = () => {
       const newfavlist = [...favlist,movie];
       const newfavlist2 = [...new Set(newfavlist)];
         setfav(newfavlist2);
+        alert("Movie added to favourite check below");
       
     };
 
@@ -52,11 +53,13 @@ const App = () => {
         
             );
       setfav(newfavlist);
+      
   };
    
 
   const getpreviewurl = (vidiourl) => {
     setpreviewurl(vidiourl);
+    alert("preview available hit play in player");
 };
 
      return(
@@ -84,7 +87,7 @@ const App = () => {
            
           />
           
-          <h1 className="Favliststyle"> Add Fav To See Fav Below</h1>
+          <h1 className="Favliststyle">  Favourites Below >></h1>
            
               
           <Card 

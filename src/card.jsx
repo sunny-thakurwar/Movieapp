@@ -19,7 +19,7 @@ const Card = (props) =>{
     
     <div className="cards">
           <div className="card">
-            <div className="imageContainer">
+          <div className="imageContainer">   
             <img src = {Img_url + movie.poster_path} alt="mypic" className="card__img"/> 
             </div>
             <div className="card__info">
